@@ -95,6 +95,8 @@ heart-disease-prediction/
 ├── manage.py
 ├── .gitignore
 └── README.md
+```
+
 ## Machine Learning Model
 
 The project uses a pre-trained machine learning model stored in `best_model.pkl`.
@@ -105,6 +107,8 @@ The dataset used by the application is stored in:
 
 ```text
 media/heart-disease-dataset.csv
+```
+
 ## Screenshots
 
 ### Home Page
@@ -136,6 +140,7 @@ media/heart-disease-dataset.csv
 ![Prediction Output](screenshots/screenshot-08.png)
 
 ![Prediction Output](screenshots/screenshot-09.png)
+
 ## How to Run the Project
 
 ### 1. Clone the Repository
