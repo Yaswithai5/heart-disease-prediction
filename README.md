@@ -3,7 +3,6 @@
 A machine learning based web application for predicting the possibility of heart disease. The project is developed using Django and provides separate user and admin sections.
 
 The application allows users to register, log in, enter their health-related details, and get a heart disease prediction. It also includes an admin section for managing and viewing user-related information.
-
 ## Features
 
 - User registration and login
@@ -16,7 +15,6 @@ The application allows users to register, log in, enter their health-related det
 - Django-based web application
 - Pre-trained machine learning model
 - Feature scaling using a saved scaler
-
 ## Technologies Used
 
 - Python
@@ -29,7 +27,6 @@ The application allows users to register, log in, enter their health-related det
 - Pandas
 - NumPy
 - Scikit-learn
-
 ## How the Project Works
 
 1. The user opens the application.
@@ -40,7 +37,6 @@ The application allows users to register, log in, enter their health-related det
 6. The trained machine learning model uses the processed information to make a prediction.
 7. The prediction result is displayed to the user.
 8. The admin section can be used to view and manage user-related information.
-
 ## Project Structure
 
 ```text
@@ -140,13 +136,14 @@ media/heart-disease-dataset.csv
 ![Prediction Output](screenshots/screenshot-08.png)
 
 ![Prediction Output](screenshots/screenshot-09.png)
-
 ## How to Run the Project
 
 ### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/Yaswithai5/heart-disease-prediction.git
+```
+
 ### 2. Open the Project Folder
 
 ```bash
@@ -192,7 +189,6 @@ Open the following URL in your browser:
 ```text
 http://127.0.0.1:8000/
 ```
-
 ## Dataset
 
 The project uses a heart disease dataset stored in the `media` folder.
@@ -200,16 +196,14 @@ The project uses a heart disease dataset stored in the `media` folder.
 ```text
 media/heart-disease-dataset.csv
 ```
-
 ## Model Files
 
-The trained machine learning model and scaler are included in the project:
+The trained machine learning model and scaler are included in the project.
 
 ```text
 best_model.pkl
 scaler.pkl
 ```
-
 ## Future Improvements
 
 - Improve the user interface
@@ -219,9 +213,8 @@ scaler.pkl
 - Deploy the application online
 - Improve authentication and security
 - Compare the performance of multiple machine learning models
-
 ## Author
 
 **Yaswithai5**
 
-GitHub: [https://github.com/Yaswithai5](https://github.com/Yaswithai5)
+GitHub: [Yaswithai5](https://github.com/Yaswithai5)
